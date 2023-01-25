@@ -11,3 +11,251 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  padding-top: 30px;
+  margin-bottom: 120px;
+}
+.header-werapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 435px;
+}
+.nav-items {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+}
+.nav-items:hover{
+  cursor: pointer;
+  color: blue;
+  opacity: 1;
+}
+.hero-wrapper {
+  display: flex;
+}
+.hero-left {
+  width: 350px;
+  margin-right: 109px;
+}
+.ovoid { 
+  border-radius: 55px;
+  padding: 15px 25px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+.ovoid:hover{
+  color: greenyellow;
+ background-color: black;
+}
+.hero-heading {
+  margin-bottom: 33px;
+  margin-top: 100px;
+}
+.hero-desc {
+  margin-bottom: 45px;
+}
+.Table-text-our {
+  text-align: center;
+  width: 800px;
+  margin-left: 90px;
+  margin-top: 100px;
+}
+hr {
+  width: 45px;
+  margin-left: 375px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.table-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.Table-box {
+  display: flex;
+  vertical-align: middle;
+  width: 1150px;
+}
+.Table-text {
+  width: 350px;
+  
+  margin: 15px;
+  margin-left: 40px;
+  background-color: azure;
+}
+.table-paragraph {
+  width: 200px;
+  margin: 40px;
+}
+.table-img {
+  margin: 40px;
+}
+.name {
+  margin: 40px;
+} 
+.learn {
+  text-align: center; 
+  border-radius: 55px; 
+  border: Solid #458ff6;
+  color: white;
+  padding: 0px 25px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458ff6;
+  mix-blend-mode: normal;
+}
+.learn:hover{
+  background-color: #1f1534;
+  color: greenyellow;
+}
+.img-download {
+  display: flex;
+  vertical-align: middle;
+  margin-top: 250px;
+}
+.download-text {
+  width: 330px; 
+  margin-left: 80px;
+} 
+
+.download {
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  width: 150px; 
+  border-radius: 55px;
+  margin-top: 70px; 
+  font-weight: 700;
+  font-size: 18px;  
+  line-height: 60px;
+  border: Solid #458ff6; 
+  font-family: "Mulish";
+  font-style: normal;
+  mix-blend-mode: normal;
+  color: #458ff6;
+}
+.download :hover{
+  background-color: #1f1534;
+  color: greenyellow;
+}
+.hero-dwld {
+  margin-top: 90px;
+}
+.About-Edward-Newgate {
+  display: inline-block;
+  width: 1000px;
+  margin-top: 200px;
+  margin-left: 80px;
+  border-radius: 25px;
+  background-color: #67c3f3;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.Newgate-img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 170px;
+}
+.Newgate-name {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+.Newgate-coment {
+  vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+  width: 330px;
+  height: 150px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+.article {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1000px; 
+  margin-left: 70px;
+  margin-top: 100px;
+}
+.image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+.article-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px; 
+  margin: 5px;
+  padding: 10px;
+  background-color: #fffff1;
+}
+.article-img {
+  width: 250px;
+  height: 150px;
+}
+.View-all {
+  text-decoration: none; 
+  margin: 35px auto;
+  padding: 10px 25px;
+  border-radius: 90px;
+  border: 2px solid #458ff6;
+}
+footer{
+  background-color: #458ff6;
+  margin-top: 100px;
+}
+.footur {
+  display: flex;
+  text-align: center;   
+  margin: 0 auto;
+  
+  
+}
+.footur-1 {
+  vertical-align: middle;
+  display: inline-block;
+  width: 250px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+.footur-ul {
+  list-style: none;
+}
+
