@@ -241,19 +241,16 @@ footer{
   margin-top: 100px;
 }
 .footur {
-  display: flex;
-  text-align: center;   
-  margin: 0 auto;
-  
-  
+  display: flex; 
+justify-content: space-around; 
+  padding: 100px 10px;
+  margin-left: 120px; 
 }
 .footur-1 {
   vertical-align: middle;
+  text-align: left;
   display: inline-block;
-  width: 250px;
-  margin-top: 90px;
-  margin-left: auto;
-  margin-bottom: 20px;
+  width: 200px; 
 }
 .footur-ul {
   list-style: none;
